@@ -92,7 +92,7 @@ font-weight: 600;
     width: 20%;
 }
 #hotels .special-box{margin: 0px 0px -20px 0px;}
-#hotels .bonus{margin: 20px 0px 20px 0px;}
+#hotels .bonus{margin:0px auto;margin-top: 10px;}
 
 @media screen and (max-width: 1200px){
 .section-membership .promo-thumbnail, .section-student .promo-thumbnail{margin:0px;}
