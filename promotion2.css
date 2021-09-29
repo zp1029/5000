@@ -88,9 +88,7 @@ font-weight: 600;
 		.uk-container-small {max-width: 80%;height:fit-content;}
 		.nav-item{font-size: 1.2rem;min-height: 60px;text-align: center;}
 
-.uk-child-width-1-4>* {
-    width: 20%;
-}
+.uk-child-width-1-4>* {width: 20%;}
 #hotels .special-box{margin: 0px 0px -20px 0px;}
 #hotels .bonus{margin:0px auto;margin-top: 10px;}
 
@@ -114,6 +112,10 @@ font-weight: 600;
     display: inline;
     padding: 3px 15px;
     letter-spacing: 5px;}
+	.section-membership .promo-card, .section-student .promo-card{width: 90%;
+    padding-top: 30px;
+    border-radius: 5px;}
+
 }
 @media screen and (max-width: 640px){
 	.promo-flash{padding-top:0px;}

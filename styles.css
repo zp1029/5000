@@ -148,7 +148,7 @@ nav.uk-child-width-1-4 > * { padding: 6px; }
 /*.promo-cover.cover-flash { background-image: url(./img/tholiday4.jpg); }*/
 .promo-cover.cover-flash { background-image: url("img/tCar.jpg");background-position: right;  }
 .promo-cover.cover-halfPrice { background-image: url("img/tHotel.jpg");background-position: left; }
-.promo-cover.cover-halfPrice2 { background-image: url(https://t.pimg.jp/071/147/978/2/71147978.jpg); }
+/*.promo-cover.cover-halfPrice2 { background-image: url(https://t.pimg.jp/071/147/978/2/71147978.jpg); }*/
 
 .promo-card .flash-badge,
 .promo-card .flash-badge-extend {
@@ -179,7 +179,7 @@ nav.uk-child-width-1-4 > * { padding: 6px; }
 .promo-content .box { margin-bottom: 24px; }
 
 .promo-content .text-light { font-size: 1.5rem; letter-spacing: 2px; line-height: 120%; }
-.promo-content .text-bold {font-size: 2rem; letter-spacing: 2px; font-weight: 700;}
+.promo-content .text-bold {font-size: 1.75rem; letter-spacing: 2px; font-weight: 700;}
 
 .special-tgo { color: #c43d66; font-size: 1.125rem; }
 
@@ -370,7 +370,7 @@ nav.uk-child-width-1-4 > * { padding: 6px; }
 .section-combo .promo-content { padding: 0; }
 
 .promo-card .description {
-  font-size: 2rem;
+  font-size: 1.75rem;
   line-height: 130%;
   letter-spacing: 2px;
   margin-bottom: 12px;
@@ -560,7 +560,7 @@ color: #2c99c3;
 
 .promo-tgo .promo-content,
 .promo-student .promo-content { 
-  width: 300px;
+  width: 300px;padding-right: 30px;
 }
 
 
@@ -759,12 +759,12 @@ footer { padding: 24px 16px; font-size: .925rem; }
 
   .promo-cover.cover-halfPrice {
     background-image: url(img/tHotel.jpg);
-    background-position: 50% 10%;
+    background-position: bottom;
   }
-  .promo-cover.cover-halfPrice2 {
+ /* .promo-cover.cover-halfPrice2 {
     background-image: url(img/tHotel.jpg);
     background-position: 50% 10%;
-  }  
+  }  */
   .section-combo .promo-card,
   .section-membership .promo-card { 
     flex-direction: column; 
@@ -780,7 +780,7 @@ footer { padding: 24px 16px; font-size: .925rem; }
   .promo-tgo { padding: 0px; }
   
   .promo-title-1 { margin-bottom: 8px; }
-  .promo-title-1 span { font-size: 2rem; }
+  .promo-title-1 span { font-size: 1.75rem; }
   .promo-meta-1 { margin-bottom: 16px; text-align: center;}
   .promo-meta-1 span { font-size: 1rem; }
   .promo-content { padding: 32px 16px; }
@@ -845,7 +845,7 @@ footer { padding: 24px 16px; font-size: .925rem; }
 
   .uk-modal-header { padding: 12px 24px; }
   .modal-heading { font-size: 1.15rem; }
-  .uk-modal-body { padding: 24px 16p; }
+  .uk-modal-body { padding: 24px 16px; }
   .notice-modal .box-title { font-size: .925rem; padding-bottom: 2px; margin-bottom: 4px;}
   .notice-modal .box-content { font-size: .875rem; }
   .notice-modal .box { margin-bottom: 16px; }
@@ -948,7 +948,7 @@ footer { padding: 24px 16px; font-size: .925rem; }
   .promo-flash { padding-top: 32px; }
 
   .promo-title-1 span,
-  .promo-title-2 span { font-size: 1.75rem; text-align: center;}
+  .promo-title-2 span { font-size: 2rem; text-align: center;}
 
   .promo-card .description { 
     font-size: 1.35rem; 
