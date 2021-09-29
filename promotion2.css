@@ -51,7 +51,7 @@ background: linear-gradient(286deg, #FAF0F3 0%, #EDEBF2 100%);
 .uk-flex-middle {
     margin: 0px auto;
 }
-.section-membership .sale-dates{margin-top:10px;}
+.section-membership .sale-dates{margin-top:20px;}
 .preview{
   cursor: none;
   background-image: linear-gradient(92.79deg, #e6a47b, #eec671, #e8c781, #e9b28f);
