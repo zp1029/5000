@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /* CSS Document */
 /*第二波底圖*/
 .promotion2_bg{
@@ -44,7 +44,8 @@ background: linear-gradient(286deg, #FAF0F3 0%, #EDEBF2 100%);
 	margin-bottom: 80px;margin-top: 0px;
 }
 
-.section-tholiday2{background-color: #FFF;padding: 0px 36px;}
+.section-tholiday2{background-color: #fff;padding: 0px 36px;}
+.section-tholiday2 .promo-card{background-color: #fff;}
 .special-box{margin:-40px;}
 
 .section-combo .special-title{margin:16px;}
@@ -95,7 +96,7 @@ font-weight: 600;
 @media screen and (max-width: 1200px){
 .section-membership .promo-thumbnail, .section-student .promo-thumbnail{margin:0px;}
 .special-box {margin:-10px;}
-	.uk-container-small {max-width: 100%;}
+	.uk-container-small {max-width: 93%;}
 	.uk-first-column{box-sizing: 80%;font-size: 1rem;}
 	.nav-item{font-size: 1.1rem;}
 /*加碼優惠*/
@@ -120,6 +121,7 @@ font-weight: 600;
 @media screen and (max-width: 640px){
 	.promo-flash{padding-top:0px;}
 	.go-dates {display: block;margin-left:0px;}
+  
 	.section-membership .sale-dates{display: block;margin-top: 0px;}
 	.nav-item{font-size: 1rem;}
 }

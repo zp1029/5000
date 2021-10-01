@@ -76,7 +76,8 @@ nav.uk-child-width-1-4 > * { padding: 6px; }
   color: #f68a22;
 }
 
-.nav-item {
+.nav-item, 
+.nav-item2 {
   background: #fff;
   font-size: 1.125rem;
   font-weight: 500;
@@ -148,7 +149,7 @@ nav.uk-child-width-1-4 > * { padding: 6px; }
 /*.promo-cover.cover-flash { background-image: url(./img/tholiday4.jpg); }*/
 .promo-cover.cover-flash { background-image: url("img/tCar.jpg");background-position: right;  }
 .promo-cover.cover-halfPrice { background-image: url("img/tHotel.jpg");background-position: left; }
-/*.promo-cover.cover-halfPrice2 { background-image: url(https://t.pimg.jp/071/147/978/2/71147978.jpg); }*/
+.promo-cover.cover-halfPrice2 { background-image: url(https://t.pimg.jp/071/147/978/2/71147978.jpg); }
 
 .promo-card .flash-badge,
 .promo-card .flash-badge-extend {
@@ -187,7 +188,7 @@ nav.uk-child-width-1-4 > * { padding: 6px; }
   position: relative;
   border-top: 1px solid; 
   border-bottom: 1px solid; 
-  padding: 2px 24px; 
+  padding: 2px 20px; 
   font-weight: 500;
 	margin: 0px;
 }
@@ -364,8 +365,8 @@ nav.uk-child-width-1-4 > * { padding: 6px; }
   background: #fff;
 }
 
-.section-combo .promo-card { width: 860px; }
-.section-membership .promo-card { width: 800px; }
+.section-combo .promo-card { width: 860px;margin-bottom: 20px;}
+.section-membership .promo-card { width: 800px;}
 
 .section-combo .promo-content { padding: 0; }
 
@@ -453,7 +454,7 @@ color: #2c99c3;
 }
 
 .tgo-lable {
-  line-height: 140%;
+  /*line-height: 140%;*/
   font-size: 1.125rem;
   font-weight: 500;
   letter-spacing: 0;
@@ -478,8 +479,8 @@ color: #2c99c3;
   width: 0;
   top: 0px;
   right: -17px;
-  border-top: 17px solid #2c99c3;
-  border-bottom: 17px solid #2c99c3;
+  border-top: 18px solid #2c99c3;
+  border-bottom: 18px solid #2c99c3;
   border-right: 17px solid transparent;
 }
 
@@ -490,8 +491,8 @@ color: #2c99c3;
   width: 0;
   top: 0px;
   left: -17px;
-  border-top: 17px solid #2c99c3;
-  border-bottom: 17px solid #2c99c3;
+  border-top: 18px solid #2c99c3;
+  border-bottom: 18px solid #2c99c3;
   border-left: 17px solid transparent;
 }
 
@@ -513,7 +514,7 @@ color: #2c99c3;
   /*background: transparent;*/
   margin: 10px 0px 30px 0px;
   min-height: 350px;
-  padding: 20px;
+  padding: 20px;box-shadow: 1px 1px 12px rgb(42 42 43 / 5%);
 }
 /*
 .section-student .promo-student { padding: 0; }
@@ -525,7 +526,7 @@ color: #2c99c3;
   overflow: hidden;
   border-radius: 11px;
   margin: 0px 40px 0px 40px;
-  box-shadow: 4px 8px 12px rgba(42, 42, 43, .1);
+  /*box-shadow: 4px 8px 12px rgba(42, 42, 43, .1);*/
   position: relative;
 }
 
@@ -824,7 +825,7 @@ footer { padding: 24px 16px; font-size: .925rem; }
   .promo-card .description { text-align: center; }
 
   .promo-hotels .btn-wrapper { flex-direction: column; }
-  .section-combo .btn-viewNotice { margin: 24px 0 0;}
+  .section-combo .btn-viewNotice { margin: 5px 0 0;}
 
   .video-card:nth-child(2) { margin: 32px 0 0; }
 
@@ -841,7 +842,7 @@ footer { padding: 24px 16px; font-size: .925rem; }
   .promo-card .promo-cover {  min-height: 280px; }
   
   .promo-cover.cover-flash,
-  .promo-cover.cover-halfPrice { background-position: 0% 0%; }
+  .promo-cover.cover-halfPrice { background-position: 100% 0%; }
 
   .uk-modal-header { padding: 12px 24px; }
   .modal-heading { font-size: 1.15rem; }
@@ -948,7 +949,7 @@ footer { padding: 24px 16px; font-size: .925rem; }
   .promo-flash { padding-top: 32px; }
 
   .promo-title-1 span,
-  .promo-title-2 span { font-size: 2rem; text-align: center;}
+  .promo-title-2 span { font-size: 1.5rem; text-align: center;}
 
   .promo-card .description { 
     font-size: 1.35rem; 
@@ -971,7 +972,7 @@ footer { padding: 24px 16px; font-size: .925rem; }
 
   .promo-content .box { margin-bottom: 12px; }
   .promo-content .text-light { font-size: 1.15rem; }
-  .promo-content .text-bold { font-size: 1.5rem; }
+  .promo-content .text-bold { font-size: 1.3rem; }
 
   .special-tgo { font-size: .925rem; }
 
@@ -986,20 +987,20 @@ footer { padding: 24px 16px; font-size: .925rem; }
   .section-membership, .section-combo { padding: 32px 16px; }
   .section-membership, .section-combo { margin: 0 0 16px; }
 
-  .tgo-lable { font-size: .925rem; padding: 4px 48px; }
+  .tgo-lable { font-size: .925rem; /*padding: 4px 48px;*/}
   .tgo-lable .lable-highlight { font-size: 1.125rem; }
 
   .tgo-lable:before {
     left: -15px;
     border-top-width: 15px;
-    border-bottom-width: 15px;
+    border-bottom-width: 16px;
     border-left-width: 15px;
   }
 
   .tgo-lable:after {
     right: -15px;
     border-top-width: 15px;
-    border-bottom-width: 15px;
+    border-bottom-width: 16px;
     border-right-width: 15px;
   }
 
