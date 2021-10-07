@@ -67,36 +67,48 @@ font-weight: 600;
   background-size:300% 100%;
   transition: all cubic-bezier(.4,0,.2,1) .3s;
 }
-/*選單*/
-	    .nav-5000{background-image: url("images/menu_01.png");
-			background-position: 20px 0px;background-repeat: no-repeat;background-size:84px 60px; }
-		.nav-55{background-image: url("images/menu_02.png");
-		background-position: 20px 5px;background-repeat: no-repeat;background-size:84px 60px; }
-	    .nav-tHotel{background-image: url("images/menu_03.png");
-			background-position: 30px 5px;background-repeat: no-repeat;background-size:84px 60px; }
-		.nav-tCar{background-image: url("images/menu_04.png");
-		background-position: 20px 5px;background-repeat: no-repeat;background-size:84px 60px; }		
-		
-		.nav-5000>span{display: inline-block; position: static; 
-			padding: 12px 20px 10px 100px;}
-			.nav-55>span{display: inline-block; position: static; 
-			padding: 12px 20px 10px 130px;}
-			.nav-tHotel>span{display: inline-block; position: static; 
-			padding: 12px 20px 10px 110px;}
-			.nav-tCar>span{display: inline-block; position: static; 
-			padding: 12px 20px 10px 120px;}
 		
 		.uk-container-small {max-width: 80%;height:fit-content;}
 		.nav-item{font-size: 1.2rem;min-height: 60px;text-align: center;}
-
+.nav-item2:hover{color:#333;
+	transform:none;cursor: none;}
 .uk-child-width-1-4>* {width: 20%;}
 #hotels .special-box{margin: 0px 0px -20px 0px;}
 #hotels .bonus{margin:0px auto;margin-top: 10px;}
+/*已售完設計*/
 
+.menu_soldOut{position: absolute;
+    z-index: 100;
+    max-width: 180px;
+    margin-top: -1%;left: 60%;}
+.btn_soldOut{margin-left: 30%;
+    margin-top: 9%;}
+.soldOutStamp_bg{background-color:#FFF;border: 1px solid #000;
+font-weight: 700;width: 130px;transform: rotate(345deg);text-align: center;font-size: 1.2rem;padding: 3px ;    position: absolute;
+    margin-top: 16%;
+}
+.soldOutStamp_menubg{background-color:#FFF;border: 1px solid #000;
+font-weight: 700;width: 150px;transform: rotate(345deg);text-align: center;font-size: 1.2rem;margin-top: 0%;margin-left: 50%;
+	position: absolute;margin-top: 15px;padding: 3px !important;
+}
+.btn_soldOutStamp{
+	background-color: rgb(0, 0, 0,0.7);
+	letter-spacing: 2px;color: #FFF;display: block;padding: 5px;
+
+}
+.tt{ 	border-image:url(img/border.png) 30 round;
+	-moz-border-image:url("img/border.png") 30 round;    /* 給 Firefox 看*/
+    -webkit-border-image:url("img/border.png") 30 round;    /* 給 Safari 與 Chrome 看*/
+	-o-border-image:url("img/border.png") 30 round;}        /* 給 Opera 看*/
+@media screen and (max-width: 1400px){
+	.menu_soldOut{left: 60%;
+		margin-top:-12px;}
+	.soldOutStamp_menubg{margin-left: 50%;width: 130px;}
+}
 @media screen and (max-width: 1200px){
 .section-membership .promo-thumbnail, .section-student .promo-thumbnail{margin:0px;}
 .special-box {margin:-10px;}
-	.uk-container-small {max-width: 93%;}
+	.uk-container-small {max-width: 100%;}
 	.uk-first-column{box-sizing: 80%;font-size: 1rem;}
 	.nav-item{font-size: 1.1rem;}
 /*加碼優惠*/
@@ -116,12 +128,24 @@ font-weight: 600;
 	.section-membership .promo-card, .section-student .promo-card{width: 90%;
     padding-top: 30px;
     border-radius: 5px;}
+	.btn_soldOut{margin-left:0%;margin-top:220px;}
+	.menu_soldOut{max-width: 160px;margin-left:1%;}
+	.soldOutStamp_menubg{margin-left: 61%;}
+	.soldOutStamp_bg{margin-top: 150px;}
+}
+@media screen and (max-width: 780px){
+	.menu_soldOut{max-width: 140px;margin-left:0%;margin-top:3%;}
+	.soldOutStamp_menubg{width: 15%;line-height: 1.2rem;font-size: 1rem;margin-top:25px;font-size: 1rem; }
 
 }
 @media screen and (max-width: 640px){
 	.promo-flash{padding-top:0px;}
-	.go-dates {display: block;margin-left:0px;}
+	.go-dates {display: block;margin-left:0px;margin-top:5px;}
   
 	.section-membership .sale-dates{display: block;margin-top: 0px;}
 	.nav-item{font-size: 1rem;}
+	.menu_soldOut{max-width: 100%;}
+	.soldOutStamp_menubg{margin-left: 60%;font-size: 0.9rem; }
 }
+@media screen and (max-width: 420px){.btn_soldOut{margin-top:150px;}
+.soldOutStamp_bg{margin-top: 130px;}}
