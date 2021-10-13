@@ -159,13 +159,13 @@ footer>p>a{padding-bottom: 10px;}
 	.section-membership .sale-dates{display: block;margin-top: 0px;}
 	.nav-item{font-size: 1rem;}
 	.menu_soldOut{max-width: 100%;}
-	.soldOutStamp_bg{margin-left:-20%;}
+	.soldOutStamp_bg{}
 	.soldOutStamp_menubg{margin-left: 60%;font-size: 0.9rem;margin-top: 10px;}
 }
 @media screen and (max-width: 420px){
 	.special-box {margin: -10px 30px;}
 	.promo-tgo .tgo-lable{line-height:1.25rem;}
-.soldOutStamp_bg{margin-left: -10%;}
+.soldOutStamp_bg{margin-left: -15%;}
 .soldOutStamp_menubg{width:60px;height: 60px;margin-top: 15px;}
 
 }
