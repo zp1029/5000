@@ -144,10 +144,10 @@ footer>p>a{padding-bottom: 10px;}
 	.btn_soldOut{margin-left:0%;margin-top:220px;}
 	.soldOutStamp_menubg{margin-left: 65%;margin-top: 0px; line-height: 1.2em;}
 	.soldOutStamp_bg{/*margin-top: 0px;margin-left:-24%;line-height: 1.3em;*/margin: 0px auto;}
+	.promo-card .description .highlight{word-break: break-all;}
 }
 @media screen and (max-width: 780px){
 	.soldOutStamp_menubg{width: 70px; height:70px;;line-height: 1.2rem;font-size: 1rem;font-size: 1rem; }
-
 }
 @media screen and (max-width: 640px){
 	.promo-flash{padding-top:10px;}
@@ -161,7 +161,7 @@ footer>p>a{padding-bottom: 10px;}
 }
 @media screen and (max-width: 420px){
 	.special-box {
-    margin: -10px;
+    margin: -10px 10px;
 }
 	.promo-tgo .tgo-lable{line-height:1.25rem;}
 .soldOutStamp_bg{margin-top: 0px;}
