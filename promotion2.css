@@ -150,7 +150,7 @@ footer>p>a{padding-bottom: 10px;}
 }
 @media screen and (max-width: 780px){
 	.soldOutStamp_menubg{width: 70px; height:70px;;line-height: 1.2rem;font-size: 1rem;font-size: 1rem; }
-	.soldOutStamp_bg{margin-left:-20%;margin-top:64px;}
+	.soldOutStamp_bg{margin-left:-23%;margin-top:64px;}
 }
 @media screen and (max-width: 640px){
 	.promo-flash{padding-top:10px;}
@@ -159,7 +159,7 @@ footer>p>a{padding-bottom: 10px;}
 	.section-membership .sale-dates{display: block;margin-top: 0px;}
 	.nav-item{font-size: 1rem;}
 	.menu_soldOut{max-width: 100%;}
-	.soldOutStamp_bg{margin-left:-15%;}
+	.soldOutStamp_bg{margin-left:-20%;}
 	.soldOutStamp_menubg{margin-left: 60%;font-size: 0.9rem;margin-top: 10px;}
 }
 @media screen and (max-width: 420px){
