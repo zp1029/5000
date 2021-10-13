@@ -177,7 +177,7 @@ nav.uk-child-width-1-4 > * { padding: 6px; }
 
 .promo-content {     padding: 48px 16px 30px 16px;}
 
-.promo-content .box { margin-bottom: 24px; }
+.promo-content .box { margin-bottom:0px; }
 
 .promo-content .text-light { font-size: 1.5rem; letter-spacing: 2px; line-height: 120%; }
 .promo-content .text-bold {font-size: 1.75rem; letter-spacing: 2px; font-weight: 700;}
@@ -407,8 +407,7 @@ color: #2c99c3;
   font-weight: 500;
   border: 1px solid;
   padding: 8px 16px;
-  margin-top: -15px;
-  margin-bottom: 36px;
+  margin:20px;
 }
 
 .section-combo .btn-buy { margin-bottom: 0; margin:0px auto;}
@@ -890,7 +889,7 @@ footer>p>a:hover{color: #F7BA18;}
   .section-membership .promo-card-inner { padding: 32px 24px; }
 
   /* Hotels */
-  .bonus { margin: -12px 0 24px; }
+  .bonus { margin: 10px; }
 
   /* Student */
   .section-student .promo-card { width: 100%; }
