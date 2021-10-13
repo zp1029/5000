@@ -188,9 +188,10 @@ nav.uk-child-width-1-4 > * { padding: 6px; }
   position: relative;
   border-top: 1px solid; 
   border-bottom: 1px solid; 
-  padding: 2px 20px; 
+  padding: 5px 20px; 
   font-weight: 500;
 	margin: 0px;
+	word-break: keep-all;
 }
 
 /* ------- Buy Btn ------- */
@@ -209,12 +210,15 @@ nav.uk-child-width-1-4 > * { padding: 6px; }
   transition: all cubic-bezier(.4,0,.2,1) .3s;
 }
 
+.btn-buy:hover{
+  color: #fff;
+  background-position: 100% 0;
+}
 .btn-buy:hover,
 .btn-more:hover {
   color: #fff;
   background-position: 100% 0;
 }
-
 .btn-buy .text-go {
   transform: skewX(-15deg);
   /* font-family: 'Lato', sans-serif; */
@@ -437,7 +441,7 @@ color: #2c99c3;
 .section-membership {
   /*background: #e7f0f3;*/
   /*background:  linear-gradient(253deg, #CBE6DE -2%, #EEF0E5 100%);;*/
-  padding: 32px 16px;
+  padding: 0px 16px;
   margin: 0 56px;
   border-radius: 21px;
 }
@@ -460,7 +464,7 @@ color: #2c99c3;
   letter-spacing: 0;
   background: #2c99c3;
   color: #fff;
-  padding: 4.4px 64px;
+  padding: 4.5px 64px;
   position: relative;
   vertical-align: text-bottom;
   margin-bottom: 16px;
@@ -469,7 +473,7 @@ color: #2c99c3;
 .tgo-lable .lable-highlight {
   color: #fcf453;
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .tgo-lable:after {
@@ -561,7 +565,7 @@ color: #2c99c3;
 
 .promo-tgo .promo-content,
 .promo-student .promo-content { 
-  width: 300px;padding-right: 30px;
+  width: 300px;
 }
 
 
@@ -693,7 +697,7 @@ color: #2c99c3;
 /* ------------------------------ */
 /*             Footer             */
 /* ------------------------------ */
-footer { padding: 16px 10px;; font-size: .925rem; text-align: center;background-color: #000;color: #FFF;}
+footer { padding: 16px 10px;; font-size: .925rem; text-align: center;background-color: #605f5f;color: #FFF;}
 footer>p{width: 100%;}
 footer>p>a{color:#F7BA18; /*font-weight: 500;*/}
 footer>p>a:hover{color: #F7BA18;}
@@ -709,8 +713,8 @@ footer>p>a:hover{color: #F7BA18;}
 
   .section-tholiday{ margin: 0 auto 64px; }
   .section-combo { margin: 0 auto 64px; }
-  .section-membership { margin: 0 auto; }
-  .section-student { margin: 64px auto; }
+  .section-membership { margin: 0px auto; }
+  .section-student { margin:0px auto; }
   .section-videos { margin: 64px auto 0;  }
 
   .hero-wrapper { max-height: none; }
@@ -977,7 +981,7 @@ footer>p>a:hover{color: #F7BA18;}
 
   .special-tgo { font-size: .925rem; }
 
-  .promo-content { padding: 24px 16px; }
+  .promo-content { padding: 24px 0px; }
 
   .section-combo .promo-thumbnail,
   .section-membership .promo-thumbnail,
