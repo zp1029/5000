@@ -37,6 +37,9 @@ text-align: center;font-size: 1.5rem;color:#fff;
 	z-index: 101;
 	/*border-top: 2px dashed #575656;*/border-top: 2px dashed #dadada;
 }
+.promo-content.special-box {
+    padding: 20px;
+}
 #vonchar .special-tgo{padding-bottom: 0px;}
 
 .section-5000 { 
@@ -46,7 +49,6 @@ background: linear-gradient(286deg, #FAF0F3 0%, #EDEBF2 100%);
 
 .section-tholiday2{background-color: #fff;padding: 0px 36px;}
 .section-tholiday2 .promo-card{background-color: #fff;}
-.special-box{margin:-40px;}
 
 .section-combo .special-title{margin:16px;}
 .uk-flex-middle {
@@ -101,7 +103,7 @@ background-color: #999898;
     letter-spacing: 3px;
     color: #FFF;
     display: block;
-    padding: 17%;
+    padding: 18%;
     border-radius: 999rem;
     margin: -2px 0px 0px -2px;
 }
@@ -139,15 +141,16 @@ footer>p>a{padding-bottom: 10px;}
     padding: 3px 15px;
     letter-spacing: 5px;}
 	.section-membership .promo-card, .section-student .promo-card{width: 90%;
-    padding-top: 30px;
+    padding-top: 30px;padding-bottom: 50px;
     border-radius: 5px;}
 	.btn_soldOut{margin-left:0%;margin-top:220px;}
 	.soldOutStamp_menubg{margin-left: 65%;margin-top: 0px; line-height: 1.2em;}
-	.soldOutStamp_bg{/*margin-top: 0px;margin-left:-24%;line-height: 1.3em;*/margin: 0px auto;}
+	.soldOutStamp_bg{margin-top: 150px;/*margin-left:-24%;line-height: 1.3em;margin: 0px auto;*/}
 	.promo-card .description .highlight{word-break: break-all;}
 }
 @media screen and (max-width: 780px){
 	.soldOutStamp_menubg{width: 70px; height:70px;;line-height: 1.2rem;font-size: 1rem;font-size: 1rem; }
+	
 }
 @media screen and (max-width: 640px){
 	.promo-flash{padding-top:10px;}
@@ -160,11 +163,9 @@ footer>p>a{padding-bottom: 10px;}
 	.soldOutStamp_menubg{margin-left: 60%;font-size: 0.9rem;margin-top: 10px;}
 }
 @media screen and (max-width: 420px){
-	.special-box {
-    margin: -10px 10px;
-}
+	.special-box {margin: -10px 30px;}
 	.promo-tgo .tgo-lable{line-height:1.25rem;}
-.soldOutStamp_bg{margin-top: 0px;}
+.soldOutStamp_bg{margin-top: 130px;}
 .soldOutStamp_menubg{width:60px;height: 60px;margin-top: 15px;}
 
 }

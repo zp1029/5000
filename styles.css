@@ -128,8 +128,8 @@ nav.uk-child-width-1-4 > * { padding: 6px; }
 
 .promo-meta-1 { margin-bottom: 24px; }
 .promo-meta-1 span { font-size: 1rem; }
-.promo-meta-1 .sale-dates { margin-right: 16px; }
-
+.promo-meta-1 .sale-dates { margin: 0px 10px; }
+.promo-meta-1 .go-dates { margin: 0px 10px; }
 .promo-card {
   background: #fff;
   position: relative;
@@ -209,7 +209,6 @@ nav.uk-child-width-1-4 > * { padding: 6px; }
   background-size:300% 100%;
   transition: all cubic-bezier(.4,0,.2,1) .3s;
 }
-
 .btn-buy:hover{
   color: #fff;
   background-position: 100% 0;
@@ -229,7 +228,8 @@ nav.uk-child-width-1-4 > * { padding: 6px; }
 
 .btn-viewNotice { font-size: .825rem;}
 
-.btn-more { margin-bottom: 0; }
+.btn-more,
+.preview { margin-bottom: 0; }
 
 /* ------- Flash Ended ------- */
 .flash-ended {
@@ -549,7 +549,7 @@ color: #2c99c3;
 
 .promo-student .promo-meta-2 { margin: 10px 0px 10px 0px; }
 
-.promo-student .promo-content .special-tgo { width: 100%; margin-bottom: 20px; }
+.promo-student .promo-content .special-tgo { width: 100%; }
 .promo-student .promo-content .special-title { margin-bottom: 0; }
 
 .promo-student .notice-text {
@@ -748,8 +748,7 @@ footer>p>a:hover{color: #F7BA18;}
   .section-tholiday,
   .section-combo { margin: 0 16px 16px; }
   
-  .section-combo,
-  .section-membership { padding: 60px 64px; }
+  .section-combo{ padding: 60px 64px; }
 
   .section-student { margin: 16px 16px; }
   
@@ -789,7 +788,7 @@ footer>p>a:hover{color: #F7BA18;}
   .promo-title-1 span { font-size: 1.75rem; }
   .promo-meta-1 { margin-bottom: 16px; text-align: center;}
   .promo-meta-1 span { font-size: 1rem; }
-  .promo-content { padding: 32px 16px; }
+  .promo-content { padding: 32px; }
   .promo-content .box { margin-bottom: 0px; }
   .promo-content .text-light { font-size: 1.25rem; }
   .promo-content .text-bold { font-size: 1.75rem; }
@@ -967,7 +966,6 @@ footer>p>a:hover{color: #F7BA18;}
   .promo-meta-1 span,
   .promo-meta-2 { font-size: .875rem; }
 
-  .promo-meta-1 .sale-dates { margin-right: 0px; }
   .promo-meta-2 .sale-dates { margin-bottom: 2px; margin-right: 12px; }
 
   .btn-buy .text-go { font-size: 1.25rem; }
