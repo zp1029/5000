@@ -86,14 +86,18 @@ font-weight: 600;
 /* ------------------------------ */
 /*         soldOut stamp          */
 /* ------------------------------ */
-.soldOutStamp_bg,.soldOutStamp_menubg{background-color:rgba(254,254,254, 0.8);border: 1px solid #000;
+.soldOutStamp_bg,.soldOutStamp_menubg{background-color:rgba(254,254,254, 1);/*border: 1px solid #000;*/
 font-weight: 700;transform: rotate(345deg);text-align: center;font-size: 1.2rem;
 	position: absolute;padding: 2px !important;box-shadow: 2px 2px 1px rgb(42 42 43 / 15%);border-radius: 999rem; }
+
+.soldOutStamp_bg{margin-top: 16%;line-height: 1.4em;margin-left: -20%;width: 80px; }
+.soldOutStamp_menubg{margin-left: 54%;line-height: 1.3em;width: 80px;height: 80px; }
+
 
 .btn_soldOutStamp{
 	/*background-color: rgb(0, 0, 0,0.7);
 	letter-spacing: 2px;color: #FFF;display: block;padding: 5px;*/
-background-color: rgb(0, 0, 0,0.8);
+background-color: #999898;
     letter-spacing: 3px;
     color: #FFF;
     display: block;
@@ -101,9 +105,9 @@ background-color: rgb(0, 0, 0,0.8);
     border-radius: 999rem;
     margin: -2px 0px 0px -2px;
 }
-.soldOutStamp_bg{margin-top: 16%;line-height: 1.4em;margin-left: -20%;width: 80px;height: 80px; }
-.soldOutStamp_menubg{margin-left: 54%;line-height: 1.3em;width: 80px;height: 80px; }
-
+a.btn-more.preview:hover {
+  background-position:  linear-gradient(92.79deg, #e86c1e, #edae26, #edae26, #e86c1e);;
+}
 footer>p>a{padding-bottom: 10px;}
 .tt{ 	border-image:url(img/border.png) 30 round;
 	-moz-border-image:url("img/border.png") 30 round;    /* 給 Firefox 看*/
@@ -139,7 +143,7 @@ footer>p>a{padding-bottom: 10px;}
     border-radius: 5px;}
 	.btn_soldOut{margin-left:0%;margin-top:220px;}
 	.soldOutStamp_menubg{margin-left: 65%;margin-top: 0px; line-height: 1.2em;}
-	.soldOutStamp_bg{margin-top: 0px;margin-left:-24%;line-height: 1.3em;}
+	.soldOutStamp_bg{/*margin-top: 0px;margin-left:-24%;line-height: 1.3em;*/margin: 0px auto;}
 }
 @media screen and (max-width: 780px){
 	.soldOutStamp_menubg{width: 70px; height:70px;;line-height: 1.2rem;font-size: 1rem;font-size: 1rem; }
