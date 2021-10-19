@@ -79,7 +79,7 @@ nav.uk-child-width-1-4 > * { padding: 6px; }
 .nav-item, 
 .nav-item2 {
   background: #fff;
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   font-weight: 500;
   padding: 8px 24px;
   border-radius: 7px;
@@ -149,7 +149,7 @@ nav.uk-child-width-1-4 > * { padding: 6px; }
 /*.promo-cover.cover-flash { background-image: url(./img/tholiday4.jpg); }*/
 .promo-cover.cover-flash { background-image: url("img/tCar.jpg");background-position: right;  }
 .promo-cover.cover-halfPrice { background-image: url("img/tHotel.jpg");background-position: left; }
-.promo-cover.cover-halfPrice2 { background-image: url(https://t.pimg.jp/071/147/978/2/71147978.jpg); }
+.promo-cover.cover-halfPrice2 { background-image: url("img/tMeal.jpg"); background-position: left; }
 
 .promo-card .flash-badge,
 .promo-card .flash-badge-extend {
