@@ -163,6 +163,6 @@ footer>p>a{padding-bottom: 10px;}
 @media screen and (max-width: 420px){
 	.special-box {margin: -10px 30px;}
 	.tgo-lable {padding: 4.5px 20px;}
-	promo-content .text-light {
+	.promo-content .text-light{
 		letter-spacing: 1.5px;   line-height: unset;}
 }
