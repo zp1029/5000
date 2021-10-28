@@ -127,7 +127,7 @@ footer>p>a{padding-bottom: 10px;}
     float: left;
     margin-left: -200px;
     left: 170px;
-    margin-top: -56px;
+    margin-top: -298px;
 }
 
 @media screen and (max-width: 1400px){
@@ -162,8 +162,7 @@ footer>p>a{padding-bottom: 10px;}
 	.soldOutStamp_menubg{margin-left: 65%;margin-top: 0px; line-height: 1.2em;}
 	.soldOutStamp_bg{left: calc(50% - 130px);}
 	.promo-card .description .highlight{word-break: break-all;}
-	#bonus{left: -136px;
-    margin-top: -36px;float: right;}
+	#bonus{float: right;    width: 100%;left: 70px;margin-top: -36px;}
 }
 @media screen and (max-width: 780px){
 	.soldOutStamp_menubg{width: 70px; height:70px;;line-height: 1.2rem;font-size: 1rem;font-size: 1rem; }
@@ -181,4 +180,5 @@ footer>p>a{padding-bottom: 10px;}
 	.tgo-lable {padding: 4.5px 20px;}
 	.promo-content .text-light{
 		letter-spacing: 1.5px;   line-height: unset;}
+	#bonus{background-position: 38px;left: 33px;top: 62px;margin-top: -100px;}
 }
