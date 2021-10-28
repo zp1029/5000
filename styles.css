@@ -758,7 +758,7 @@ footer>p>a:hover{color: #F7BA18;}
   
   .promo-cover.cover-flash {
     background-image: url(img/tCar.jpg);
-    background-position: 50% 0%;
+    background-position: right;
   }
 
   .promo-cover.cover-halfPrice {
