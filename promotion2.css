@@ -73,7 +73,7 @@ font-weight: 600;
 		.uk-container-small {max-width: 80%;height:fit-content;}
 		.nav-item{min-height: 60px;text-align: center;}
 .nav-item2:hover{color:#333;
-	transform:none;cursor: none;}
+	transform:none;cursor: default;}
 .uk-child-width-1-4>* {width: 20%;}
 #hotels .special-box{margin: 0px 0px -20px 0px;}
 #hotels .bonus{margin:0px auto;margin-top: 10px;}
@@ -109,7 +109,7 @@ background-color: #999898;
     margin: -2px 0px 0px -2px;
 }
 a.btn-more.preview:hover {
-  background-position:  linear-gradient(92.79deg, #e86c1e, #edae26, #edae26, #e86c1e);;
+  background-position:  linear-gradient(92.79deg, #e86c1e, #edae26, #edae26, #e86c1e);
 }
 footer>p>a{padding-bottom: 10px;}
 .tt{ 	border-image:url(img/border.png) 30 round;
@@ -127,7 +127,7 @@ footer>p>a{padding-bottom: 10px;}
     float: left;
     margin-left: -200px;
     left: 170px;
-    margin-top: -294px;
+    margin-top: -315px;
 }
 
 @media screen and (max-width: 1400px){
