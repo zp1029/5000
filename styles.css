@@ -226,7 +226,7 @@ nav.uk-child-width-1-4 > * { padding: 6px; }
   font-weight: 900;
 }
 
-.btn-viewNotice { font-size: .825rem;}
+.btn-viewNotice { font-size: .825rem;cursor: default;}
 
 .btn-more,
 .preview { margin-bottom: 0; }
@@ -412,7 +412,7 @@ color: #2c99c3;
 
 .section-combo .btn-buy { margin-bottom: 0; margin:0px auto;}
 .section-combo .btn-viewNotice { margin-left: 16px; }
-.section-tholiday .btn-viewNotice{color: #c64800;}
+.section-tholiday .btn-viewNotice{color: #d8ac93;cursor: default;}
 
 .section-combo .promo-thumbnail {
   position: relative;
